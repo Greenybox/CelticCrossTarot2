@@ -12,6 +12,7 @@
 		F19C321C2111FEF400D8686F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19C321A2111FEF400D8686F /* Main.storyboard */; };
 		F19C321E2111FEF600D8686F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F19C321D2111FEF600D8686F /* Assets.xcassets */; };
 		F19C32212111FEF600D8686F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F19C321F2111FEF600D8686F /* LaunchScreen.storyboard */; };
+		F19C32292111FFFA00D8686F /* CelticCrossViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19C32282111FFFA00D8686F /* CelticCrossViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F19C321D2111FEF600D8686F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F19C32202111FEF600D8686F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F19C32222111FEF600D8686F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F19C32282111FFFA00D8686F /* CelticCrossViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CelticCrossViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				F19C32162111FEF400D8686F /* AppDelegate.swift */,
 				F19C32182111FEF400D8686F /* ViewController.swift */,
 				F19C321A2111FEF400D8686F /* Main.storyboard */,
+				F19C32282111FFFA00D8686F /* CelticCrossViewController.swift */,
 				F19C321D2111FEF600D8686F /* Assets.xcassets */,
 				F19C321F2111FEF600D8686F /* LaunchScreen.storyboard */,
 				F19C32222111FEF600D8686F /* Info.plist */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F19C32192111FEF400D8686F /* ViewController.swift in Sources */,
+				F19C32292111FFFA00D8686F /* CelticCrossViewController.swift in Sources */,
 				F19C32172111FEF400D8686F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +289,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 489FV3VP25;
 				INFOPLIST_FILE = CelticCrossTarot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +297,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Greeny.CelticCrossTarot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -303,6 +308,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 489FV3VP25;
 				INFOPLIST_FILE = CelticCrossTarot/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,7 +316,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.Greeny.CelticCrossTarot;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
