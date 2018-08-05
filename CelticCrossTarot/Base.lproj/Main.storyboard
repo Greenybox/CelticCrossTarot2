@@ -24,7 +24,10 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IFt-0j-ubz" userLabel="CardBut01">
                                 <rect key="frame" x="196" y="142" width="50" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="bc"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" image="bc">
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="ViewCard01:" destination="P9r-x4-Fi2" eventType="touchUpInside" id="XrO-mF-t6U"/>
                                 </connections>
@@ -32,6 +35,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yG2-ZI-XQU" userLabel="CardBut02">
                                 <rect key="frame" x="177" y="161" width="89" height="50"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="ViewCard02:" destination="P9r-x4-Fi2" eventType="touchUpInside" id="3Is-jm-dRb"/>
                                 </connections>
@@ -39,7 +45,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jG0-j3-WLP" userLabel="CardBut03">
                                 <rect key="frame" x="196" y="256" width="50" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="bc"/>
+                                <state key="normal" image="bc">
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="ViewCard03:" destination="P9r-x4-Fi2" eventType="touchUpInside" id="u8k-YJ-sdI"/>
                                 </connections>
@@ -47,7 +55,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pu3-aS-jU9" userLabel="CardBut04">
                                 <rect key="frame" x="83" y="142" width="50" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="bc"/>
+                                <state key="normal" image="bc">
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="ViewCard04:" destination="P9r-x4-Fi2" eventType="touchUpInside" id="ULz-V7-nPQ"/>
                                 </connections>
@@ -55,7 +65,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2qN-yL-hGb" userLabel="CardBut05">
                                 <rect key="frame" x="196" y="29" width="50" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="bc"/>
+                                <state key="normal" image="bc">
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="ViewCard05:" destination="P9r-x4-Fi2" eventType="touchUpInside" id="3bz-A0-ud1"/>
                                 </connections>
@@ -63,7 +75,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yrf-Qs-4j6" userLabel="CardBut06">
                                 <rect key="frame" x="317" y="142" width="50" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="bc"/>
+                                <state key="normal" image="bc">
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="ViewCard06:" destination="P9r-x4-Fi2" eventType="touchUpInside" id="pYA-wD-5QR"/>
                                 </connections>
@@ -71,7 +85,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="itw-1P-GmD" userLabel="CardBut07">
                                 <rect key="frame" x="488" y="282" width="50" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="bc"/>
+                                <state key="normal" image="bc">
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="ViewCard07:" destination="P9r-x4-Fi2" eventType="touchUpInside" id="wIj-xm-iFJ"/>
                                 </connections>
@@ -79,7 +95,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NJj-hd-9dK" userLabel="CardBut08">
                                 <rect key="frame" x="488" y="198" width="50" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="bc"/>
+                                <state key="normal" image="bc">
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="ViewCard08:" destination="P9r-x4-Fi2" eventType="touchUpInside" id="n2l-gV-eFj"/>
                                 </connections>
@@ -87,7 +105,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdu-Rc-WfI" userLabel="CardBut09">
                                 <rect key="frame" x="488" y="101" width="50" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="bc"/>
+                                <state key="normal" image="bc">
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="ViewCard09:" destination="P9r-x4-Fi2" eventType="touchUpInside" id="rAs-Q5-2p2"/>
                                 </connections>
@@ -95,7 +115,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kzD-H1-Zp7" userLabel="CardBut10">
                                 <rect key="frame" x="488" y="4" width="50" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="bc"/>
+                                <state key="normal" image="bc">
+                                    <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
                                 <connections>
                                     <action selector="ViewCard10:" destination="P9r-x4-Fi2" eventType="touchUpInside" id="qW4-dT-XCY"/>
                                 </connections>
@@ -110,65 +132,86 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8Fq-YX-NUj" userLabel="CardView01">
                                 <rect key="frame" x="196" y="142" width="50" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xpM-Oq-nPX" userLabel="CardView02">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xpM-Oq-nPX" userLabel="CardView02">
                                 <rect key="frame" x="196" y="142" width="50" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uha-9I-3xE" userLabel="CardView03">
-                                <rect key="frame" x="196" y="256" width="50" height="89"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZBJ-mi-Er4" userLabel="CardView04">
+                                <rect key="frame" x="83" y="142" width="50" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZBJ-mi-Er4" userLabel="CardView04">
-                                <rect key="frame" x="83" y="143" width="50" height="89"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qWz-t4-6j4" userLabel="CardView06">
+                                <rect key="frame" x="317" y="142" width="50" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nBp-0n-cCR" userLabel="CardView05">
                                 <rect key="frame" x="196" y="29" width="50" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="qWz-t4-6j4" userLabel="CardView06">
-                                <rect key="frame" x="317" y="143" width="50" height="89"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uha-9I-3xE" userLabel="CardView03">
+                                <rect key="frame" x="196" y="256" width="50" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wpC-mu-tE7" userLabel="CardView07">
-                                <rect key="frame" x="488" y="282" width="50" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="weo-jR-HGi" userLabel="CardView08">
-                                <rect key="frame" x="488" y="198" width="50" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fym-26-xiL" userLabel="CardView09">
-                                <rect key="frame" x="488" y="101" width="50" height="89"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YDi-go-kAb" userLabel="CardView10">
                                 <rect key="frame" x="488" y="4" width="50" height="89"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fym-26-xiL" userLabel="CardView09">
+                                <rect key="frame" x="488" y="101" width="50" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="weo-jR-HGi" userLabel="CardView08">
+                                <rect key="frame" x="488" y="198" width="50" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3vp-nn-EDV" userLabel="CardImage">
-                                <rect key="frame" x="300" y="0.0" width="212" height="378"/>
+                                <rect key="frame" x="300" y="4" width="212" height="371"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GRI-f6-fvi" userLabel="drawCardButton01">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GRI-f6-fvi" userLabel="drawCardButton01">
                                 <rect key="frame" x="579" y="52" width="207" height="235"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="207" id="Pk6-OQ-e2p"/>
+                                    <constraint firstAttribute="height" constant="235" id="Quz-9z-Awe"/>
+                                </constraints>
                                 <state key="normal" title="Button" image="drawCardView"/>
                                 <connections>
                                     <action selector="drawCardAction:" destination="P9r-x4-Fi2" eventType="touchUpInside" id="3HG-oG-3hK"/>
                                 </connections>
                             </button>
-                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IuU-33-TrL" userLabel="drawCardViewAgain">
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IuU-33-TrL" userLabel="drawCardViewAgain">
                                 <rect key="frame" x="579" y="52" width="207" height="235"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="207" id="b3c-uy-6Ee"/>
+                                    <constraint firstAttribute="height" constant="235" id="iB3-sq-sF2"/>
+                                </constraints>
                                 <state key="normal" title="Button" image="drawCardViewAgain"/>
                                 <connections>
                                     <action selector="drawAgain:" destination="P9r-x4-Fi2" eventType="touchUpInside" id="6Rf-EH-vyi"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wpC-mu-tE7" userLabel="CardView07">
+                                <rect key="frame" x="488" y="286" width="50" height="89"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ZBJ-mi-Er4" firstAttribute="top" secondItem="xpM-Oq-nPX" secondAttribute="top" id="68N-RD-1TU"/>
-                            <constraint firstItem="xpM-Oq-nPX" firstAttribute="width" secondItem="uha-9I-3xE" secondAttribute="width" id="nbl-SN-1oZ"/>
+                            <constraint firstAttribute="trailing" secondItem="IuU-33-TrL" secondAttribute="trailing" constant="26" id="3fR-Qu-dAa"/>
+                            <constraint firstItem="et0-dV-J3e" firstAttribute="top" secondItem="IuU-33-TrL" secondAttribute="bottom" constant="67" id="FlD-sg-ypJ"/>
+                            <constraint firstAttribute="trailing" secondItem="GRI-f6-fvi" secondAttribute="trailing" constant="26" id="V1C-y1-SfP"/>
+                            <constraint firstItem="et0-dV-J3e" firstAttribute="top" secondItem="GRI-f6-fvi" secondAttribute="bottom" constant="67" id="emc-MC-O1r"/>
                         </constraints>
                     </view>
                     <connections>
@@ -186,16 +229,7 @@
                         <outlet property="drawAction" destination="GRI-f6-fvi" id="lwc-3c-58k"/>
                         <outlet property="drawAgain" destination="IuU-33-TrL" id="j2V-FK-50g"/>
                         <outlet property="exitButton" destination="CRJ-RC-KVp" id="d9Z-uk-X6H"/>
-                        <outletCollection property="allCardView" destination="8Fq-YX-NUj" collectionClass="NSMutableArray" id="6VV-Ao-p34"/>
                         <outletCollection property="allCardView" destination="xpM-Oq-nPX" collectionClass="NSMutableArray" id="AcW-2Z-urW"/>
-                        <outletCollection property="allCardView" destination="uha-9I-3xE" collectionClass="NSMutableArray" id="Mzg-Zh-7Hs"/>
-                        <outletCollection property="allCardView" destination="ZBJ-mi-Er4" collectionClass="NSMutableArray" id="0j3-5s-8iP"/>
-                        <outletCollection property="allCardView" destination="nBp-0n-cCR" collectionClass="NSMutableArray" id="guT-Pf-429"/>
-                        <outletCollection property="allCardView" destination="qWz-t4-6j4" collectionClass="NSMutableArray" id="0ix-n9-R2g"/>
-                        <outletCollection property="allCardView" destination="wpC-mu-tE7" collectionClass="NSMutableArray" id="1ks-pc-vtn"/>
-                        <outletCollection property="allCardView" destination="weo-jR-HGi" collectionClass="NSMutableArray" id="Rz2-EM-yD0"/>
-                        <outletCollection property="allCardView" destination="fym-26-xiL" collectionClass="NSMutableArray" id="oXC-88-5Cs"/>
-                        <outletCollection property="allCardView" destination="YDi-go-kAb" collectionClass="NSMutableArray" id="j7S-fF-AqO"/>
                         <outletCollection property="allCardBut" destination="IFt-0j-ubz" collectionClass="NSMutableArray" id="94I-oy-Jsf"/>
                         <outletCollection property="allCardBut" destination="yG2-ZI-XQU" collectionClass="NSMutableArray" id="rP1-55-zMb"/>
                         <outletCollection property="allCardBut" destination="jG0-j3-WLP" collectionClass="NSMutableArray" id="oIV-UP-Fvq"/>
@@ -206,6 +240,15 @@
                         <outletCollection property="allCardBut" destination="NJj-hd-9dK" collectionClass="NSMutableArray" id="hxZ-TZ-wdl"/>
                         <outletCollection property="allCardBut" destination="pdu-Rc-WfI" collectionClass="NSMutableArray" id="aup-Qd-v2l"/>
                         <outletCollection property="allCardBut" destination="kzD-H1-Zp7" collectionClass="NSMutableArray" id="kHn-Sn-fdc"/>
+                        <outletCollection property="allCardView" destination="ZBJ-mi-Er4" collectionClass="NSMutableArray" id="0j3-5s-8iP"/>
+                        <outletCollection property="allCardView" destination="8Fq-YX-NUj" collectionClass="NSMutableArray" id="6VV-Ao-p34"/>
+                        <outletCollection property="allCardView" destination="qWz-t4-6j4" collectionClass="NSMutableArray" id="0ix-n9-R2g"/>
+                        <outletCollection property="allCardView" destination="nBp-0n-cCR" collectionClass="NSMutableArray" id="guT-Pf-429"/>
+                        <outletCollection property="allCardView" destination="uha-9I-3xE" collectionClass="NSMutableArray" id="Mzg-Zh-7Hs"/>
+                        <outletCollection property="allCardView" destination="YDi-go-kAb" collectionClass="NSMutableArray" id="j7S-fF-AqO"/>
+                        <outletCollection property="allCardView" destination="fym-26-xiL" collectionClass="NSMutableArray" id="oXC-88-5Cs"/>
+                        <outletCollection property="allCardView" destination="weo-jR-HGi" collectionClass="NSMutableArray" id="Rz2-EM-yD0"/>
+                        <outletCollection property="allCardView" destination="wpC-mu-tE7" collectionClass="NSMutableArray" id="1ks-pc-vtn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="100-zR-cjM" userLabel="First Responder" sceneMemberID="firstResponder"/>

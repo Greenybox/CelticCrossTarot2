@@ -8,34 +8,7 @@
 
 import UIKit
 
-extension UIImage {
-    func rotate(radians: CGFloat) -> UIImage {
-        let rotatedSize = CGRect(origin: .zero, size: size)
-            .applying(CGAffineTransform(rotationAngle: CGFloat(radians)))
-            .integral.size
-        UIGraphicsBeginImageContext(rotatedSize)
-        if let context = UIGraphicsGetCurrentContext() {
-            let origin = CGPoint(x: rotatedSize.width / 2.0,
-                                 y: rotatedSize.height / 2.0)
-            context.translateBy(x: origin.x, y: origin.y)
-            context.rotate(by: radians)
-            draw(in: CGRect(x: -origin.x, y: -origin.y,
-                            width: size.width, height: size.height))
-            let rotatedImage = UIGraphicsGetImageFromCurrentImageContext()
-            UIGraphicsEndImageContext()
-            
-            return rotatedImage ?? self
-        }
-        
-        return self
-    }
-   
-    
-}
-
-
 class CelticCrossViewController: UIViewController {
-
     @IBAction func drawCardAction(_ sender: Any) {
         let angle =  CGFloat(Double.pi / 2)
         let tr = CGAffineTransform.identity.rotated(by: angle)
@@ -48,6 +21,10 @@ class CelticCrossViewController: UIViewController {
             let angle =  CGFloat(Double.pi / 1)
             let tr = CGAffineTransform.identity.rotated(by: angle)
             CardView01.transform = tr
+        } else {
+            let angle2 =  CGFloat(2*Double.pi)
+            let trb = CGAffineTransform.identity.rotated(by: angle2)
+            CardView01.transform = trb
         }
         CardView02.image = UIImage(named: "\(drawCardShuffle[1])")
         let View02 = Int.random(in: 0...1)
@@ -55,6 +32,10 @@ class CelticCrossViewController: UIViewController {
             let angle =  CGFloat(3*Double.pi / 2)
             let tr = CGAffineTransform.identity.rotated(by: angle)
             CardView02.transform = tr
+        }  else {
+            let angle2 =  CGFloat(Double.pi / 2)
+            let trb = CGAffineTransform.identity.rotated(by: angle2)
+            CardView02.transform = trb
         }
         CardView03.image = UIImage(named: "\(drawCardShuffle[2])")
         let View03 = Int.random(in: 0...1)
@@ -62,6 +43,10 @@ class CelticCrossViewController: UIViewController {
             let angle =  CGFloat(Double.pi / 1)
             let tr = CGAffineTransform.identity.rotated(by: angle)
             CardView03.transform = tr
+        }  else {
+            let angle2 =  CGFloat(2*Double.pi)
+            let trb = CGAffineTransform.identity.rotated(by: angle2)
+            CardView03.transform = trb
         }
         CardView04.image = UIImage(named: "\(drawCardShuffle[3])")
         let View04 = Int.random(in: 0...1)
@@ -69,13 +54,21 @@ class CelticCrossViewController: UIViewController {
             let angle =  CGFloat(Double.pi / 1)
             let tr = CGAffineTransform.identity.rotated(by: angle)
             CardView04.transform = tr
-        }
+        }  else {
+            let angle2 =  CGFloat(2*Double.pi)
+            let trb = CGAffineTransform.identity.rotated(by: angle2)
+            CardView04.transform = trb
+        } 
         CardView05.image = UIImage(named: "\(drawCardShuffle[4])")
         let View05 = Int.random(in: 0...1)
         if View05 == 0 {
             let angle =  CGFloat(Double.pi / 1)
             let tr = CGAffineTransform.identity.rotated(by: angle)
             CardView05.transform = tr
+        }  else {
+            let angle2 =  CGFloat(2*Double.pi)
+            let trb = CGAffineTransform.identity.rotated(by: angle2)
+            CardView05.transform = trb
         }
         CardView06.image = UIImage(named: "\(drawCardShuffle[5])")
         let View06 = Int.random(in: 0...1)
@@ -83,6 +76,10 @@ class CelticCrossViewController: UIViewController {
             let angle =  CGFloat(Double.pi / 1)
             let tr = CGAffineTransform.identity.rotated(by: angle)
             CardView06.transform = tr
+        }  else {
+            let angle2 =  CGFloat(2*Double.pi)
+            let trb = CGAffineTransform.identity.rotated(by: angle2)
+            CardView06.transform = trb
         }
         CardView07.image = UIImage(named: "\(drawCardShuffle[6])")
         let View07 = Int.random(in: 0...1)
@@ -90,6 +87,10 @@ class CelticCrossViewController: UIViewController {
             let angle =  CGFloat(Double.pi / 1)
             let tr = CGAffineTransform.identity.rotated(by: angle)
             CardView07.transform = tr
+        } else {
+            let angle2 =  CGFloat(2*Double.pi)
+            let trb = CGAffineTransform.identity.rotated(by: angle2)
+            CardView07.transform = trb
         }
         CardView08.image = UIImage(named: "\(drawCardShuffle[7])")
         let View08 = Int.random(in: 0...1)
@@ -97,6 +98,10 @@ class CelticCrossViewController: UIViewController {
             let angle =  CGFloat(Double.pi / 1)
             let tr = CGAffineTransform.identity.rotated(by: angle)
             CardView08.transform = tr
+        }  else {
+            let angle2 =  CGFloat(2*Double.pi)
+            let trb = CGAffineTransform.identity.rotated(by: angle2)
+            CardView08.transform = trb
         }
         CardView09.image = UIImage(named: "\(drawCardShuffle[8])")
         let View09 = Int.random(in: 0...1)
@@ -104,6 +109,10 @@ class CelticCrossViewController: UIViewController {
             let angle =  CGFloat(Double.pi / 1)
             let tr = CGAffineTransform.identity.rotated(by: angle)
             CardView09.transform = tr
+        }  else {
+            let angle2 =  CGFloat(2*Double.pi)
+            let trb = CGAffineTransform.identity.rotated(by: angle2)
+            CardView09.transform = trb
         }
         CardView10.image = UIImage(named: "\(drawCardShuffle[9])")
         let View10 = Int.random(in: 0...1)
@@ -111,6 +120,10 @@ class CelticCrossViewController: UIViewController {
             let angle =  CGFloat(Double.pi / 1)
             let tr = CGAffineTransform.identity.rotated(by: angle)
             CardView10.transform = tr
+        }  else {
+            let angle2 =  CGFloat(2*Double.pi)
+            let trb = CGAffineTransform.identity.rotated(by: angle2)
+            CardView10.transform = trb
         }
         drawAction.isHidden = true
         drawAgain.isHidden = false
@@ -123,6 +136,7 @@ class CelticCrossViewController: UIViewController {
         CardImage.isHidden = true
         exitButton.isHidden = true
 
+        
             }
             
     
@@ -219,8 +233,8 @@ class CelticCrossViewController: UIViewController {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-    }
     
+    }
 
     /*
     // MARK: - Navigation
